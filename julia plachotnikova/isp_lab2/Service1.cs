@@ -88,13 +88,13 @@ namespace MyWindowsService
             string name = Path.GetFileName(filePath);
             string[] parts = name.Split('.');
             string fileName = parts[0];
-            string text = File.ReadAllText(filePath);
+            /*string text = File.ReadAllText(filePath);
             byte[] str = Encrypt(text, filePath);
-            File.WriteAllText(filePath, str.ToString());
+            File.WriteAllText(filePath, str.ToString());*/
             Compress(filePath, fileName);
             Decompress(fileName);
-            string texxt = File.ReadAllText(filePath);
-            File.WriteAllText(target + fileName + ".txt", Decrypt(text, texxt, filePath));
+            /*string texxt = File.ReadAllText(filePath);
+            File.WriteAllText(target + fileName + ".txt", Decrypt(text, texxt, filePath));*/
             DeleteFile(filePath);
             DeleteArchive(fileName);
         }
@@ -116,8 +116,8 @@ namespace MyWindowsService
                 fileInf.Delete();
             }
         }
-
-        private byte [] Encrypt(string text, string filePath)
+//Доработать
+        /*private byte [] Encrypt(string text, string filePath)
         {
             
             using (Aes myAes = Aes.Create())
@@ -185,7 +185,8 @@ namespace MyWindowsService
 
             return encrypted;
         }
-
+*/
+      //доработать
             private void Compress(string filePath, string fileName)
             { 
             using (FileStream sourceStream = new FileStream(filePath, FileMode.OpenOrCreate))

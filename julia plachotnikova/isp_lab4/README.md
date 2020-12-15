@@ -1,4 +1,5 @@
 Program.cs, Service1.Designer.cs, Service1.cs - основполагающие файлы БД.
+
 DataManagerConfig.cs, Errors.cs, Order.cs - в этих файлах находятся модели данных, которые нужны для работы БД, такие как пути к папкам и др.
 Errors.cs определяет текст и время возникшей ошибки.
 ParceToJson.cs, ParceToXMl.cs - классы, в которых нахоятся методы для создания Json и XML файлов.

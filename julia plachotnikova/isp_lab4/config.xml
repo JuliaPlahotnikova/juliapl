@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<DataOptions>
+  <ConnectionString>Data Source=DESKTOP-8B8BE3V;Initial Catalog=NORTHWND;Integrated Security=True</ConnectionString>
+  <SourcePath>A:\labs\resurs\2020\</SourcePath>
+  <OutputFolder>C:\Users\dima4\source\repos\Lab4\Lab4\bin\Debug\output</OutputFolder>
+  <LoggerConnectionString>Data Source=DESKTOP-8B8BE3V;Initial Catalog=NORTHWIND;Integrated Security=True</LoggerConnectionString>
+</DataOptions>

@@ -1,0 +1,6 @@
+{
+  "ConnectionString": "Data Source=DESKTOP-8B8BE3V;Initial Catalog=NORTHWND;Integrated Security=True",
+  "LoggerConnectionString": "Data Source=DESKTOP-8B8BE3V;Initial Catalog=LogsDBSample;Integrated Security=True",
+  "SourcePath": "A:\\labs\\resurs\\2020\\",
+  "OutputFolder": "C:\\Users\\Julia\\source\\repos\\Lab4\\Lab4\\bin\\Debug\\output"
+}
